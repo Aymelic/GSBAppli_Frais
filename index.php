@@ -2,7 +2,7 @@
 require_once("include/fct.inc.php");
 require_once ("include/class.pdogsb.inc.php");
 
-$_COOKIE['langue']="en";
+$_COOKIE['langue']="fr";
 if($_COOKIE['langue'] == "fr") //Si le cookie nommé "langue" a pour valeur "fr"
 {
     include('lang/fr.php');
